@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%">
+  <!-- OE PROJEKT - Hlavní logo dle grafického manuálu (RAL 5010) -->
+  <!-- (C) Copyright symbol at top right -->
+  <g transform="translate(562, 16)">
+    <circle cx="0" cy="0" r="9" stroke="#004F7C" stroke-width="2" fill="none" />
+    <text x="0" y="3.5" font-family="'Bahnschrift', 'Roboto', 'Arial', sans-serif" font-size="10" font-weight="700" fill="#004F7C" text-anchor="middle">C</text>
+  </g>
+
+  <!-- Letter O: Two concentric circle outlines -->
+  <circle cx="210" cy="200" r="180" stroke="#004F7C" stroke-width="12" fill="none" />
+  <circle cx="210" cy="200" r="110" stroke="#004F7C" stroke-width="12" fill="none" />
+
+  <!-- Letter E: Architectural outline contour -->
+  <path d="M 270 20 
+           L 540 20 
+           L 540 85 
+           L 340 85 
+           L 340 165 
+           L 495 165 
+           L 495 235 
+           L 340 235 
+           L 340 315 
+           L 540 315 
+           L 540 380 
+           L 270 380 
+           Z" 
+        stroke="#004F7C" 
+        stroke-width="12" 
+        stroke-linejoin="miter" 
+        stroke-miterlimit="10" 
+        fill="none" />
+
+  <!-- Word PROJEKT: Spaced uppercase sans-serif -->
+  <text x="300" y="448" 
+        font-family="'Bahnschrift', 'Roboto', 'Arial', sans-serif" 
+        font-size="34" 
+        font-weight="700" 
+        letter-spacing="24px" 
+        fill="#004F7C" 
+        text-anchor="middle">PROJEKT</text>
+</svg>
