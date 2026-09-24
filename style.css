@@ -89,6 +89,10 @@
   .footer-brand-mono {
     color: var(--text-primary);
   }
+
+  .contact-social-link {
+    color: var(--text-primary);
+  }
 }
 
 /* Global Reset */
@@ -815,8 +819,8 @@ a {
 }
 
 .social-icon-linkedin {
-  width: 26px;
-  height: 26px;
+  width: 48px;
+  height: 48px;
   fill: currentColor;
 }
 
