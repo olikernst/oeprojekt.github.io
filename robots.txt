@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://oeprojekt.cz/sitemap.xml
+Sitemap: https://www.ernst-projekce.cz/sitemap.xml
