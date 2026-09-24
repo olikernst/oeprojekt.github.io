@@ -768,9 +768,10 @@ a {
 }
 
 .contact-info-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
   list-style: none;
   width: 100%;
 }
@@ -779,13 +780,14 @@ a {
   background: transparent;
   border: none;
   border-radius: 0;
-  padding: 16px 8px;
+  padding: 8px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 6px;
+  flex: 0 0 auto;
 }
 
 .contact-label {
@@ -802,6 +804,7 @@ a {
   font-size: 1.45rem;
   font-weight: 500;
   color: var(--text-primary);
+  white-space: nowrap;
 }
 
 .contact-social-link {
